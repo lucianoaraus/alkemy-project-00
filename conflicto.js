@@ -1,6 +1,7 @@
 //archivo conflicto
-
-const div = (a, b) => {
-  // retorna la division entre a y b
-  return a + b;
+const div = () => {
+  let div = document.createElement("div");
+  div.className = "div";
+  div.innerHTML = "<h1>Conflicto</h1>";
+  return div;
 };
